@@ -32,7 +32,7 @@ int main()
 		cout << "value: "; cin >> value;
 		Node *n;
 			n= BinarySearchInsert(root, value, found);
-			if (n->info == value)
+			if (found == true)
 				cout << "Find true"<<endl;
 			else
 				cout << "Find false" << endl;
